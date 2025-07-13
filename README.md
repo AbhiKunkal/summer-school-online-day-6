@@ -1,12 +1,94 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ✅ Todo App
 
-Currently, two official plugins are available:
+A simple and responsive Todo List application built using **React** and **Vite**. This app helps you manage your daily tasks efficiently with features like adding, marking as complete, and deleting tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✍️ Add new tasks
+- ✅ Mark tasks as complete/incomplete
+- ❌ Delete tasks
+- ♻️ Clear completed tasks (optional)
+- 🧩 Component-based structure
+- 🎨 Clean and user-friendly UI
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+---
+
+## 📂 Folder Structure
+
+```
+todo-app/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   ├── TodoInput.jsx
+│   │   ├── TodoItem.jsx
+│   │   └── TodoList.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+
+```
+
+----
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/todo-app.git
+cd "todo app"
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app locally
+
+```bash
+npm run dev
+```
+
+App will be live at:
+👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+Feel free to use and modify it for your own projects.
+
+---
+
+## 🙋‍♂️ Author
+
+**Abhishek Kumar**
+
+
+
+
+
